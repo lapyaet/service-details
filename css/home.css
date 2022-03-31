@@ -1,0 +1,33 @@
+.home {
+    width: 100%;
+    background-image: url(../image/background/bg\ \(4\).png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.home__container h3 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #ffff;
+    text-align: center;
+    padding-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.home__container p {
+    color: #ffff;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.text {
+    opacity: 0.8;
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 1.2rem;
+}
+
+.home__container p:nth-child(3) {
+    padding-bottom: 6rem;
+}

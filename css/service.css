@@ -1,0 +1,131 @@
+.service__container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    position: relative;
+}
+
+.service__container-item1 {
+    width: 32%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 40px rgba(43, 89, 255, 0.08);
+    overflow: hidden;
+}
+
+.service__container-item1 h3 {
+    background: linear-gradient(90.28deg, #001C80 0.26%, #153ABF 30.33%, #2B59FF 99.79%);
+    padding: 1.5rem 1rem ;
+    color: #ffff;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.service__container-item1 p {
+    position: relative;
+    padding: 1.5rem 1rem;
+    color: #000B33;
+}
+
+.service__container-item1 p:nth-child(2) {
+    color: #FD4C5C;
+}
+
+.service__container-item1 p::after {
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    background-color: #377CFD;
+    opacity: 0.1;
+    left: 5%;
+    bottom: 0%;
+}
+
+.service__container-item2 {
+    width: 55%;
+}
+
+.service__container-item2 img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.service__container-item2 p {
+    margin-bottom: 1rem;
+    opacity: 0.7;
+}
+
+.service__container-item2-about h3{
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding: 1rem 0;
+}
+
+.service__container-item2-about-items {
+    margin-top: 0.5rem;
+    display: flex;
+}
+
+.service__container-item2-about-items img {
+    height: 2.2rem;
+    width: auto;
+    margin-right: 1.5rem;
+}
+
+.service__container-item2-about-items p span {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #377CFD;
+}
+
+.service__container-item2-about-items p {
+    font-size: 0.75rem;
+}
+
+.circle1 {
+    position: absolute;
+    height: 40rem;
+    width: auto;
+    left: -12%;
+    top: -10%;
+    display: block;
+}
+
+.dots {
+    position: absolute;
+    height: 7rem;
+    width: auto;
+    right: -12%;
+    bottom: 15rem;
+    display: block;
+}
+
+@media (min-width:0) and (max-width:480px) {
+    .service__container {
+        width: 90%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+
+    .service__container-item1 {
+        width: 100%;
+    }
+
+    .service__container-item2 {
+        width: 100%;
+    }
+
+    .circle1 {
+        display: none;
+    }
+
+    .dots {
+        display: none;
+    }
+}
