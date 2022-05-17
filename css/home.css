@@ -6,12 +6,13 @@
 }
 
 .home__container h3 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 500;
     color: #ffff;
     text-align: center;
     padding-top: 4rem;
     margin-bottom: 1.5rem;
+    letter-spacing: 2px;
 }
 
 .home__container p {
